@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
@@ -13,7 +13,7 @@
         <nav class="navigation">
             <button class="navigation__button">
                 Открыть меню
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><g fill="#ccc"><path d="M22.324 11.188H7.676a1.178 1.178 0 0 1-1.172-1.172c0-.649.527-1.172 1.172-1.172h14.648c.645 0 1.172.523 1.172 1.172 0 .64-.527 1.171-1.172 1.171zm0 0M22.324 21.156H7.676a1.173 1.173 0 0 1-1.172-1.172c0-.64.527-1.172 1.172-1.172h14.648c.645 0 1.172.532 1.172 1.172 0 .649-.527 1.172-1.172 1.172zm0 0M22.324 16.172H7.676A1.175 1.175 0 0 1 6.504 15c0-.645.527-1.172 1.172-1.172h14.648c.645 0 1.172.527 1.172 1.172 0 .645-.527 1.172-1.172 1.172zm0 0"/></g></svg>
+                <svg class="navigation__button-img" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><g fill="#ccc"><path d="M22.324 11.188H7.676a1.178 1.178 0 0 1-1.172-1.172c0-.649.527-1.172 1.172-1.172h14.648c.645 0 1.172.523 1.172 1.172 0 .64-.527 1.171-1.172 1.171zm0 0M22.324 21.156H7.676a1.173 1.173 0 0 1-1.172-1.172c0-.64.527-1.172 1.172-1.172h14.648c.645 0 1.172.532 1.172 1.172 0 .649-.527 1.172-1.172 1.172zm0 0M22.324 16.172H7.676A1.175 1.175 0 0 1 6.504 15c0-.645.527-1.172 1.172-1.172h14.648c.645 0 1.172.527 1.172 1.172 0 .645-.527 1.172-1.172 1.172zm0 0"/></g></svg>
             </button>
             <ul class="menu menu--invisible">
                 <li class="menu__item">
@@ -33,14 +33,14 @@
         <div class="slider-block">
             <input class="search-label" type="search" placeholder="Поиск">
             <div class=slider>
-               <img class="slider__img" src="img/image-slide1--desktop.jpg"/>
+               <img class="slider__img" src="img/image-slide1--desktop.jpg" alt="Фото для шапки" />
             </div>
-            <img class="slider__design-img" src="img/img-design.png"/>
+            <img class="slider__design-img" src="img/img-design.png" alt="Элемент дизайна" />
             <div class="slider__logo">
                 <h1 class=slider__title>Маршруты <span>Североуральска</span></h1>
                 <p class="slider__text">Побывай там, где сердце Уральских гор</p>
-                <img class="slider__logo-img1" src="img/map-route.png"/>
-                <img class="slider__logo-img2" src="img/logo.png"/>
+                <img class="slider__logo-img1" src="img/map-route.png" alt="Элемент логотипа" />
+                <img class="slider__logo-img2" src="img/logo.png" alt="Элемент логотипа" />
             </div>
         </div>
     </header>
@@ -49,6 +49,7 @@
         <h2 class="main-block__header">Главная</h2>
         <div class="main-block__content">
             <section class="main-block__text">
+                <h2 class="visually-hidden">О южной территории Северного Урала</h2>
                 На южной территории Северного Урала раскидываются просто потрясающего вида горы Кумба и Золотой Камень, которыми
                 можно любоваться бесконечно. От местного «кумп» название переводится как «волна», на которую и похожа гора. Наивысшая 
                 точка одноименного горного массива располагается на северо-востоке. Ее высота достигает чуть больше 921 м. Впечатляет 
@@ -68,7 +69,7 @@
             <h2 class="visually-hidden">О нас</h2>
             <ul class="services__items">
                 <li class="services__item services__item--recreations">
-                    <img class="services__img" src="img/recreation.png" alt="Изображение Базы отдыха" width="80px" height="80px">
+                    <img class="services__img" src="img/recreation.png" alt="Изображение Базы отдыха">
                     <h3 class="services__item-header">Базы отдыха</h3>
                     <p class="services__item-text">
                         Найди своё место
@@ -77,7 +78,7 @@
                     <a href="" class="services__item-link">Смотреть базы</a>
                 </li>
                 <li class="services__item services__item--proects">
-                    <img class="services__img" src="img/proects.png" alt="Изображение Базы отдыха" width="80px" height="80px">
+                    <img class="services__img" src="img/proects.png" alt="Изображение Базы отдыха">
                     <h3 class="services__item-header">Наши проекты</h3>
                     <p class="services__item-text">
                         Наши проекты - 
@@ -86,7 +87,7 @@
                     <a href="" class="services__item-link">Смотреть проекты</a>
                 </li>
                 <li class="services__item services__item--teams">
-                    <img class="services__img" src="img/commands.png" alt="Изображение Базы отдыха" width="100px" height="100px">
+                    <img class="services__img" src="img/commands.png" alt="Изображение Базы отдыха">
                     <h3 class="services__item-header">Хочу в команду</h3>
                     <p class="services__item-text">
                         Ваша поддержка - 
