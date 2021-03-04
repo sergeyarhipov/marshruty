@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico', 'https://fonts.googleapis.com/css?family="Playfair Display"', 'https://fonts.googleapis.com/css?family="Open Sans"');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family="Playfair Display"');
+@import url('https://fonts.googleapis.com/css?family="Open Sans"');
 
 .visually-hidden {
     display: none;
