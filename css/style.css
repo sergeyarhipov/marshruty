@@ -103,10 +103,6 @@
     text-decoration: none;
 }
 
-.slider {
-    display: flex;
-}
-
 .slider__logo {
     z-index: 3;
     position: absolute;
