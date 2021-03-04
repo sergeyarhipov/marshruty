@@ -182,6 +182,7 @@
 
 .slider__img {
     width: 100%;
+    height: auto;
     position: relative;
     border-bottom: 4px solid #025d99;
 }
