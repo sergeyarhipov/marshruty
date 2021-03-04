@@ -297,6 +297,10 @@
          top: 20px;
      }
 
+     .slider__logo-img2 {
+         padding-right: -60px;
+     }
+
      .services__item-header {
          font-size: 25px;
      }
