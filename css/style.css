@@ -160,6 +160,7 @@
 
 .slider__text span {
     display: block;
+    padding-left: 85px;
 }
 
 .slider__logo-img {
@@ -471,6 +472,7 @@
     .slider__text-img {
         top: 20px;
         height: 100px;
+        padding-left: 15px;
     }
 
     .main-block__text {
