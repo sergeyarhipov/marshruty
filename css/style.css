@@ -26,29 +26,34 @@
     padding: 0;
     font-size: 0;
     margin-left: 10px;
-    background: none;
+    background: transparent url(../img/menu-open.svg) no-repeat;
+    background-size: contain;
     border: 1px solid #fff;
     border-radius: 5px;
     outline: none;
 }
 
 .navigation__button:hover {
-    background-image: -moz-linear-gradient( 90deg, rgb(237,126,53) 0%, rgb(188,88,19) 50%, rgb(213,107,36) 74%, rgb(237,126,53) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(237,126,53) 0%, rgb(188,88,19) 50%, rgb(213,107,36) 74%, rgb(237,126,53) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(237,126,53) 0%, rgb(188,88,19) 50%, rgb(213,107,36) 74%, rgb(237,126,53) 100%);
+    background-color: rgb(231, 104, 20);
+    background-size: contain;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7) inset; 
     outline: none;
 }
 
-.navigation__button:active {
-    background-image: -moz-linear-gradient( 90deg, rgb(237,126,53) 0%, rgb(188,88,19) 50%, rgb(213,107,36) 74%, rgb(237,126,53) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(237,126,53) 0%, rgb(188,88,19) 50%, rgb(213,107,36) 74%, rgb(237,126,53) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(237,126,53) 0%, rgb(188,88,19) 50%, rgb(213,107,36) 74%, rgb(237,126,53) 100%);
+.navigation__button--close {
+    fill: #fff;
+    stroke: #fff;
+    background: transparent url(../img/menu-close.svg) no-repeat;
+    background-size: 30px 30px;
+    background-position: 50% 50%;
     outline: none;
 }
 
-.navigation__button-img {
-    width: 35px;
-    height: 35px;
+.navigation__button--close:hover {
+    background-color: rgb(231, 104, 20);
+    background-size: 30px 30px;
+    background-position: 50% 50%;
+    outline: none;
 }
 
 .search-label {
